@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9fb220c5d8cb4e16bb0537c2c601193b" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolScheduleModel.Calls" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolScheduleModel.Curriculum" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolScheduleModel.Groups" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolScheduleModel.Rooms" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolScheduleModel.Schedule" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolScheduleModel.ScheduleVersions" Width="1.5" PointX="3" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolScheduleModel.Subgroups" Width="1.5" PointX="3" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolScheduleModel.Subjects" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolScheduleModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolScheduleModel.TeacherRestrictions" Width="1.5" PointX="5.25" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolScheduleModel.Teachers" Width="1.5" PointX="3" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolScheduleModel.Users" Width="1.5" PointX="0.75" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolScheduleModel.Weeks" Width="1.5" PointX="3" PointY="23.625" IsExpanded="true" />
+        <AssociationConnector Association="SchoolScheduleModel.FK_Schedule_Calls" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK__Curriculu__Group__05D8E0BE" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK__Curriculu__Subje__06CD04F7" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK__Schedule__GroupI__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK__ScheduleV__Group__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK__Subgroups__Group__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK__Schedule__RoomID__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK__Schedule__Subgro__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK__Schedule__Subjec__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK__Schedule__Versio__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK__Schedule__WeekID__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK_Schedule_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK__TeacherRe__Teach__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.FK__Teachers__UserID__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolScheduleModel.Teacher_Subjects" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
